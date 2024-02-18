@@ -1,0 +1,180 @@
+.gtp3_featu_maincontainer{
+    display: flex;
+    flex-direction: row;
+     
+}
+.gtp3_featu_leftdiv{
+    display: flex;
+    justify-content: flex-start;
+    flex: 1;
+    flex-direction: column;
+     
+     
+}
+.gtp3_featu_leftdiv h1{
+    font-family: Manrope;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    
+
+
+}
+.gtp3_featu_leftdiv p{
+    color: #FF8A71;
+    display: flex;
+    margin-top: 3rem;
+
+}
+.gtp3_featu_middlediv{
+    display: flex;
+    flex: 1;
+    
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+        
+    
+     
+}
+.gtp3_featu_middlediv_element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+   
+    
+}
+.gtp3_featu_middlediv_element h1{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 170px;
+}
+.gtp3_featu_middlediv_element div{
+    width: 38px;
+    background: var(--gradient-bar);
+    height: 3px;
+    margin-bottom: 0.25rem;
+
+}
+ 
+.gtp3_featu_rightdiv{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: white;
+    padding-left: 5px;
+    
+}
+.gtp3_featu_rightdiv p{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #81AFDD;
+    margin-bottom: 20px;
+    max-width: 334px;
+    
+}
+/* Small screens (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+    .gtp3_featu_maincontainer {
+      flex-direction: column; /* Change to column layout */
+    }
+    .gtp3_featu_leftdiv {
+      align-items: center; /* Center align */
+      padding: 0 10px; /* Adjust padding */
+    }
+    .gtp3_featu_leftdiv h1 {
+      font-size: 24px; /* Adjust font size */
+      line-height: 36px; /* Adjust line height */
+      text-align: center; /* Center align */
+    }
+    .gtp3_featu_leftdiv p {
+      margin-top: 1rem; /* Adjust margin */
+    }
+    .gtp3_featu_middlediv {
+      align-items: center; /* Center align */
+      padding: 0 10px; /* Adjust padding */
+    }
+    .gtp3_featu_middlediv_element {
+      margin-bottom: 30px; /* Adjust margin */
+    }
+    .gtp3_featu_middlediv_element h1 {
+      font-size: 18px; /* Adjust font size */
+      line-height: 28px; /* Adjust line height */
+      text-align: center; /* Center align */
+      max-width: 150px; /* Adjust max width */
+    }
+    .gtp3_featu_rightdiv {
+      padding-left: 0; /* Remove padding */
+    }
+    .gtp3_featu_rightdiv p {
+      max-width: 100%; /* Adjust max width */
+      margin-bottom: 15px; /* Adjust margin */
+    }
+  }
+  
+  /* Medium screens (tablets, 601px to 900px) */
+  @media only screen and (min-width: 601px) and (max-width: 900px) {
+    .gtp3_featu_leftdiv h1 {
+      font-size: 20px; /* Adjust font size */
+      line-height: 36px; /* Adjust line height */
+      text-align: left; /* Center align */
+    }
+    .gtp3_featu_middlediv {
+      align-items: center; /* Center align */
+      padding: 0 10px; /* Adjust padding */
+       
+    }
+    .gtp3_featu_middlediv_element {
+      display: flex; /* Add display: flex */
+      justify-content: center; /* Center align horizontally */
+      align-items: center;
+      margin-bottom: 35px; /* Adjust margin */
+    }
+    .gtp3_featu_middlediv_element h1 {
+      font-size: 16px; /* Adjust font size */
+      line-height: 28px; /* Adjust line height */
+      text-align: center; /* Center align */
+      max-width: 150px; /* Adjust max width */
+    }
+    .gtp3_featu_middlediv_element div {
+      width: 40px;
+      background: var(--gradient-bar);
+      height: 3px;
+      margin-bottom: 0.15rem;
+    }
+    .gtp3_featu_rightdiv p{
+      font-family: Manrope;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #81AFDD;
+      margin-bottom: 10px;
+      max-width: 334px;
+      
+  }
+  }
+  
+  /* Large screens (desktops, 901px to 1200px) */
+  @media only screen and (min-width: 901px) and (max-width: 1200px) {
+    /* Add specific styles for large screens */
+  }
+  
+  /* Extra-large screens (large desktops, 1201px and above) */
+  @media only screen and (min-width: 1201px) {
+    /* Add specific styles for extra-large screens */
+  }

@@ -1,0 +1,44 @@
+.gpt3__blog{
+    display: flex;
+    flex-direction: column;
+     
+    
+}
+.gpt3__blog-container{
+    display: flex;
+    flex-direction: row;
+     
+    height: 100%;
+    width: 100%;
+    }
+.gpt3__blog-top-blog{
+    display: flex;
+     
+    
+}
+.gpt3__blog-other-blogs{
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Gap between grid items */
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .gpt3__blog-container{
+        flex-direction: column-reverse;
+    }
+    .gpt3__blog-other-blogs{
+        margin: 1rem 0rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .gpt3__blog-other-blogs{
+   
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Two columns with equal width */
+        gap: 20px; /* Gap between grid items */
+    
+    }
+}
